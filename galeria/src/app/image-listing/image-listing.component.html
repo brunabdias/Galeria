@@ -1,0 +1,5 @@
+<h2>Fotos</h2>
+
+<div *ngFor="let img of image" style="display: inline; margin: 10px;">
+    <a routerLink="/image-details/{{img.id}}"><img src="{{img.thumbnailUrl}}"></a>
+</div>

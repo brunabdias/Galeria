@@ -1,0 +1,6 @@
+<h2>Seleção de álbuns</h2>
+
+<div *ngFor="let album of albuns" style="display: inline; margin: 10px; top: 10px;">
+        <a routerLink="/album/{{album.id}}"><img src="{{album.url}}"></a>
+    </div>
+
